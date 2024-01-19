@@ -1,0 +1,46 @@
+{
+  "name": "erc20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gnosis.pm/safe-core-sdk": "^3.2.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.3",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@tenderly/hardhat-tenderly": "^2.1.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.4.0",
+    "hardhat": "^2.19.4",
+    "hardhat-gas-reporter": "^1.0.9",
+    "solidity-coverage": "^0.8.5",
+    "typechain": "^8.3.2"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-app-eth": "^6.35.2",
+    "@ledgerhq/hw-transport-node-hid": "^6.28.1",
+    "@nomicfoundation/hardhat-ledger": "^1.0.1",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@safe-global/protocol-kit": "^2.0.0",
+    "@safe-global/safe-core-sdk": "^3.3.5",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "assert": "^2.1.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.2",
+    "node-hid": "^3.0.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "uniswap": "^0.0.1"
+  }
+}
